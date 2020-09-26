@@ -1,7 +1,125 @@
-body{
-  background-color: olive;
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+/*
+css design by @jofpin
+*/
+body {
+  background: #f5f5f5;
+  text-align: center;
 }
 
-h1{
-  background-color: purple;
+h1 {
+  font-size: 3em;
+  font-family: "Fredoka One", sans-serif;
+  font-weight: normal;
+  color: #42A5F5;
+}
+
+.crazy-c {
+  background: #42A5F5;
+  width: 1em;
+  height: 1em;
+  font-size: 6em;
+  margin: .61em auto;
+  border-radius: 100%;
+  border: 0.12em solid #777e8c;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  -webkit-animation: crazy-color .8s infinite;
+  animation: crazy-color .8s infinite;
+}
+
+
+@-webkit-keyframes crazy-color {
+  0% {
+    background: #42A5F5;
+    box-shadow: .60em 2px #42A5F5;
+    transform: rotate(360deg);
+  }
+  30% {
+    background: #ff6680;
+    box-shadow: 3px .60em #ff6680;
+    transform: rotate(360deg);
+  }
+  50% {
+    background: #7E57C2;
+    box-shadow: .60em 2px #7E57C2;
+    transform: rotate(360deg);
+  }
+  60% {
+    background: #FFEE58;
+    box-shadow: 3px .60em #FFEE58;
+    transform: rotate(-360deg);
+  }
+  70% {
+    background: #AB47BC;
+    box-shadow: .60em 2px #AB47BC;
+    transform: rotate(360deg);
+  }
+  80% {
+    background: #FF7043;
+    box-shadow: 3px -.60em #FF7043;
+    transform: rotate(-360deg);
+  }
+  90% {
+    background: #7E57C2;
+    box-shadow: -.60em 2px #7E57C2;
+    transform: rotate(-360deg);
+  }
+  95% {
+    background: #795548;
+    box-shadow: 3px -.60em #795548;
+    transform: rotate(360deg);
+  }
+  100% {
+    background: #42A5F5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transform: none;
+  }
+}
+
+@keyframes crazy-color {
+  0% {
+    background: #42A5F5;
+    box-shadow: .60em 2px #42A5F5;
+    transform: rotate(360deg);
+  }
+  30% {
+    background: #ff6680;
+    box-shadow: 3px .60em #ff6680;
+    transform: rotate(360deg);
+  }
+  50% {
+    background: #7E57C2;
+    box-shadow: .60em 2px #7E57C2;
+    transform: rotate(360deg);
+  }
+  60% {
+    background: #FFEE58;
+    box-shadow: 3px .60em #FFEE58;
+    transform: rotate(-360deg);
+  }
+  70% {
+    background: #AB47BC;
+    box-shadow: .60em 2px #AB47BC;
+    transform: rotate(360deg);
+  }
+  80% {
+    background: #FF7043;
+    box-shadow: 3px -.60em #FF7043;
+    transform: rotate(-360deg);
+  }
+  90% {
+    background: #7E57C2;
+    box-shadow: -.60em 2px #7E57C2;
+    transform: rotate(-360deg);
+  }
+  95% {
+    background: #795548;
+    box-shadow: 3px -.60em #795548;
+    transform: rotate(360deg);
+  }
+  100% {
+    background: #42A5F5;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    transform: none;
+  }
 }
